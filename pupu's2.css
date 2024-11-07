@@ -1,0 +1,99 @@
+.love{ 
+    height: 80%;
+    width: 80%;
+    margin: 50px auto;
+    color: transparent;
+    position: relative;
+    border-radius: 10px;
+    background-color: #406BB5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 10px solid #111e5c;
+    box-shadow: black;
+    box-shadow: 10px 10px 5px rgb(24, 24, 24);
+    box-shadow: 10px 10px 5px rgb(20, 20, 20);
+    animation: mymove 5s infinite;
+    rotate:180deg 0.5s 360deg ;
+}
+
+@keyframes mymove { 
+    50% { border-color: lightblue;}
+    50% { border-color:#111e5c;}
+}
+
+p { 
+    line-height: 1.6;
+    font-size: 18px;
+    text-align: right;
+    margin-bottom: 20px;
+    color:black;
+}
+.signature { 
+    text-align: right;
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 16px;
+}
+body{ 
+
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+h3{ 
+    line-height: 1.6;
+    font-size: 18x;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #4057B5;
+}
+.mine{ 
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    color:#1653b4;
+    position: relative;
+    animation: slidein 2s linear;
+}
+
+@keyframes slidein { 
+    0% { 
+        left: -100%;
+    }
+    100%{ 
+        left:100%;
+    }
+}
+
+*{ 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    color:#111;
+}
+.waivy{ 
+    position:relative;
+}
+.waivy span { 
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation:flip 2s;
+    animation-delay: calc(.2a * var(--i))
+}
+@keyframes flip { 
+    0%, 80% { 
+        transform: rotateY(360deg)
+    }
+}
+
+    
